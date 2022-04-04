@@ -8,3 +8,5 @@
 'use strict';
 
 export * from './src/Scheduler';
+
+export * from './src/SchedulerHostConfig.js';

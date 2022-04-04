@@ -3080,7 +3080,6 @@ function beginWork(
   renderLanes: Lanes,
 ): Fiber | null {
   const updateLanes = workInProgress.lanes;
-
   if (__DEV__) {
     if (workInProgress._debugNeedsRemount && current !== null) {
       // This will restart the begin phase with a new fiber.
